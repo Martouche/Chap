@@ -9,7 +9,7 @@ NAME= client
 
 CC= gcc
 
-CFLAG= -W -Wall -Wextra -I./include
+CFLAG= -W -Wall -Wextra -I./include -L/usr/lib -lssl -lcrypto
 
 SRC=	srcs/parse.c\
 	srcs/main.c

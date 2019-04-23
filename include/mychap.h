@@ -21,6 +21,12 @@
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <netdb.h>
+#include <malloc.h>
+#include <string.h>
+#include <resolv.h>
+#include <netdb.h>
+#include <openssl/ssl.h>
+#include <openssl/err.h>
 
 typedef struct chap_s {
     char **tab;
