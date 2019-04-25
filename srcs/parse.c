@@ -56,5 +56,5 @@ int init_connexion(char *target, int port)
         perror(target);
         abort();
     }
-    return 0;
+    return sd;
 }
