@@ -36,7 +36,7 @@ int my_compare(char *str, char *compare1, char *compare2)
         return 1;
     return 0;
 }
-int init_connexion(char *target, int port)
+/*int init_connexion(char *target, int port)
 {
     int sd;
     struct hostent *host;
@@ -58,3 +58,4 @@ int init_connexion(char *target, int port)
     }
     return sd;
 }
+*/
